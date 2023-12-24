@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="sign.css">
+</head>
+<body>
+    <div id="sign">
+        <h2>Sign up</h2>
+        <form id="sign-form">
+            <input type="text" id="first-name" placeholder="first name" required>
+            <input type="text" id="last-name" placeholder="last name" required>
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <input type="password" id="Confirm" placeholder="Confirm Password" required>
+            <button type="button" onclick="validateSignup()">Sign Up</button>
+        </form>
+        <div id="error"></div>
+    </div>
+    <script src="sign.js"></script>
+</body>
+</html>
